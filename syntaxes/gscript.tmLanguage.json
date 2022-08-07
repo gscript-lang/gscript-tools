@@ -13,7 +13,7 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.gscript",
-				"match": "\\b(if|while|for|return)\\b"
+				"match": "\\b(print:|def:)\\b"
 			}]
 		},
 		"strings": {
