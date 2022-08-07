@@ -1,6 +1,7 @@
 {
   "name": "gscript-tools",
   "displayName": "GScript Tools",
+  "publisher": "molai.dev",
   "description": "Provides Syntax Highlighting for GScript",
   "version": "0.0.1",
   "engines": {
