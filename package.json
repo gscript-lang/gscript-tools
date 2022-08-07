@@ -1,0 +1,25 @@
+{
+  "name": "gscript-tools",
+  "displayName": "GScript Tools",
+  "description": "Provides Syntax Highlighting for GScript",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "gscript",
+      "aliases": ["GScript", "gscript"],
+      "extensions": [".gs",".gscript"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "gscript",
+      "scopeName": "source.gscript",
+      "path": "./syntaxes/gscript.tmLanguage.json"
+    }]
+  }
+}
