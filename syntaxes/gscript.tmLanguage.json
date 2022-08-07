@@ -13,7 +13,7 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.gscript",
-				"match": "\\b(print:|def:|sum)\\b"
+				"match": "\\b(print|defg|:|operation)\\b"
 			}]
 		},
 		"strings": {
